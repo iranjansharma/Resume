@@ -155,6 +155,10 @@ a {
   height: 1px;
 }
 
+.link {
+  font-weight: 800;
+}
+
 @media (max-width: 600px) {
   .section--page {
     padding-top: 1em;
