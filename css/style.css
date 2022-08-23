@@ -26,6 +26,22 @@
   box-sizing: border-box;
   color: var(--mainTextColor);
 }
+::selection {
+  background-color: #ffd100;
+  color: #0a0a0a;
+  text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #787b82;
+  border: 2px solid #b8373700;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
 
 body {
   background-color: var(--mainBgColor);
@@ -183,4 +199,18 @@ li {
     border-left: none;
     padding-left: 0;
   }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
