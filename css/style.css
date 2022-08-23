@@ -68,8 +68,7 @@ li {
   gap: 4em;
 }
 
-#bio,
-a {
+#bio {
   font-weight: 300;
 }
 
