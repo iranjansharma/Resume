@@ -179,6 +179,10 @@ li {
   height: 15px;
 }
 
+.ico_contact {
+  width: 30px;
+}
+
 @media (max-width: 600px) {
   .section--page {
     padding-top: 1em;
