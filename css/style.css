@@ -189,6 +189,10 @@ li {
     padding-bottom: 1em;
   }
 
+  #user-name {
+    font-size: 40px;
+  }
+
   #wrapper--hero {
     display: flex;
     align-items: center;
