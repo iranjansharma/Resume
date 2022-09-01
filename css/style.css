@@ -183,6 +183,11 @@ li {
   width: 30px;
 }
 
+.heading--page {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .section--page {
     padding-top: 1em;
